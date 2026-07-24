@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+    background-color: #d3d3d3;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: darkred;
+    font-weight: bold;
+}
+
+.label {
+    color: blue;
+    font-weight: bold;
+}
+
+.name {
+    color: red;
+}
+
+.school {
+    color: purple;
+}
+
+.total {
+    color: black;
+}
+
+.score {
+    color: green;
+}

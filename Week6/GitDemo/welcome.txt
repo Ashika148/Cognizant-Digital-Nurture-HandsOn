@@ -1,0 +1,2 @@
+Welcome to GitDemo - created using Git Bash
+This exercise demonstrates Git version control basics.
