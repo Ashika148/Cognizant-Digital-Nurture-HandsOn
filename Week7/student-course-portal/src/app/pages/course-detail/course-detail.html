@@ -1,0 +1,28 @@
+<p *ngIf="isLoading">Loading course...</p>
+
+<p *ngIf="hasError" class="error-message">
+  Something went wrong while loading this course. Please try again later.
+</p>
+
+<div *ngIf="!isLoading && !hasError">
+  <div *ngIf="course; else notFound">
+    <h2>{{ course.name }}</h2>
+    <p><strong>ID:</strong> {{ course.id }}</p>
+    <p><strong>Code:</strong> {{ course.code }}</p>
+    <p><strong>Credits:</strong> {{ course.credits }}</p>
+    <p><strong>Grade Status:</strong> {{ course.gradeStatus }}</p>
+
+    <h3>Enrolled Students</h3>
+    <ul *ngIf="enrolledStudents.length > 0; else noStudents">
+      <li *ngFor="let student of enrolledStudents">
+        {{ student.name }} ({{ student.email }})
+      </li>
+    </ul>
+    <ng-template #noStudents>
+      <p>No students enrolled yet.</p>
+    </ng-template>
+  </div>
+  <ng-template #notFound>
+    <p>Course not found.</p>
+  </ng-template>
+</div>

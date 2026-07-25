@@ -1,0 +1,8 @@
+<div class="notification-box">
+  <h4>Notifications</h4>
+  <input [(ngModel)]="message" placeholder="New notification...">
+  <button (click)="addNotification()">Add</button>
+  <ul>
+    <li *ngFor="let n of notifications">{{ n }}</li>
+  </ul>
+</div>
