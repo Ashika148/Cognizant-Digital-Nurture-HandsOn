@@ -1,0 +1,47 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Angular Fundamentals",
+      "code": "CS101",
+      "credits": 3,
+      "gradeStatus": "passed"
+    },
+    {
+      "id": "2",
+      "name": "Data Structures",
+      "code": "CS102",
+      "credits": 4,
+      "gradeStatus": "pending"
+    },
+    {
+      "name": "Test Course",
+      "code": "TEST999",
+      "credits": 1,
+      "gradeStatus": "pending",
+      "id": "wHKWaagGucs"
+    },
+    {
+      "name": "Test Course",
+      "code": "TEST999",
+      "credits": 1,
+      "gradeStatus": "pending",
+      "id": "-VbcPFBYLFQ"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Ashika N",
+      "email": "ashika@example.com"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "studentId": 1,
+      "courseId": 1
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
