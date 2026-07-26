@@ -13,6 +13,20 @@
       "code": "CS102",
       "credits": 4,
       "gradeStatus": "pending"
+    },
+    {
+      "name": "Test Course",
+      "code": "TEST999",
+      "credits": 1,
+      "gradeStatus": "pending",
+      "id": "wHKWaagGucs"
+    },
+    {
+      "name": "Test Course",
+      "code": "TEST999",
+      "credits": 1,
+      "gradeStatus": "pending",
+      "id": "-VbcPFBYLFQ"
     }
   ],
   "students": [
